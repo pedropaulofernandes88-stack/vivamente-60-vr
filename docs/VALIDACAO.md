@@ -3,10 +3,11 @@
 ## Ambiente de criação — 27/10/2026
 
 - Arquivos e lógica revisados estaticamente.
+- Núcleo C# compilado com Add-Type no PowerShell; passaram verificações executadas de bloqueio durante apresentação, pausa, erro sem avanço, conclusão e reset. Manifest JSON analisado sem erro. Isso não substitui a compilação Unity.
 - .NET runtime presente; SDK ausente. Testes console preparados, mas execução indisponível neste ambiente.
 - Unity não localizado no caminho padrão. Importação, resolução de pacotes, compilação C#, aparência e APK ainda não validados.
 - Nenhum teste em Meta Quest ou simulador executado.
-- GitHub CLI informou autenticação inválida. Envio remoto pendente.
+- GitHub CLI falhou na execução restrita; a checagem fora dela confirmou autenticação válida. Repositório remoto configurado como privado.
 
 ## Critérios antes de declarar protótipo VR funcional
 

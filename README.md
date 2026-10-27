@@ -45,14 +45,13 @@ Os testes console cobrem regras de sequência, pausa, erros, conclusão, reset e
 
 ## Repositório remoto
 
-O repositório Git local é independente. O GitHub CLI disponível indicou autenticação inválida; nenhum repositório remoto foi criado. Após autenticar na sua conta, execute nesta pasta:
+O repositório Git local é independente. Para sincronizar futuras alterações com o remoto configurado:
 
 ```powershell
-gh auth login --hostname github.com
-gh repo create vivamente-60-vr --private --source . --remote origin --push
+git push origin main
 ```
 
-Não coloque tokens ou credenciais nos arquivos. A visibilidade privada é o padrão sugerido para esta fase.
+Não coloque tokens ou credenciais nos arquivos. A visibilidade privada é o padrão desta fase.
 
 ## Escopo e dados
 
