@@ -7,7 +7,9 @@
 - .NET runtime presente; SDK ausente. Testes console preparados, mas execução indisponível neste ambiente.
 - Unity não localizado no caminho padrão. Importação, resolução de pacotes, compilação C#, aparência e APK ainda não validados.
 - Nenhum teste em Meta Quest ou simulador executado.
-- GitHub CLI falhou na execução restrita; a checagem fora dela confirmou autenticação válida. Repositório remoto configurado como privado.
+- GitHub CLI falhou na execução restrita; a checagem fora dela confirmou autenticação válida. Repositório remoto criado e posteriormente tornado público a pedido do responsável.
+- Primeira execução do GitHub Actions não iniciou: a plataforma reportou falha de pagamentos recentes ou necessidade de aumentar o limite da conta. Não foi falha dos testes; o workflow não executou.
+- Duas ilustrações conceituais geradas com IA e inspecionadas visualmente; ambas trazem aviso de que não são capturas do aplicativo. Não validam a interface Unity.
 
 ## Critérios antes de declarar protótipo VR funcional
 

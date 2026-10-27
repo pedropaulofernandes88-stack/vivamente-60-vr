@@ -2,6 +2,16 @@
 
 Nome internacional de referência: **LiveMind 60+**.
 
+## Demonstração visual da proposta
+
+**Ilustrações conceituais geradas com IA; não são capturas do aplicativo nem comprovam execução em VR.** Representam a direção visual desejada. O código atual usa formas básicas; cenários detalhados, mobiliário e flores destas imagens não estão implementados.
+
+![Sala de Vinil — visão conceitual](docs/images/sala-de-vinil-conceito.png)
+
+![Jardim da Memória — visão conceitual](docs/images/jardim-da-memoria-conceito.png)
+
+[Origem e prompts das imagens](docs/images/PROVENIENCIA.md).
+
 ## Personalização e sala de vinil
 
 Uma segunda cena simula um toca-discos com seleção de faixa, ouvir/pausar/retomar, volume e encerramento. O disco gira somente durante a reprodução. Sem músicas importadas, toca uma pequena melodia sintética identificada como demonstração; não inclui gravações comerciais.
@@ -51,7 +61,7 @@ O repositório Git local é independente. Para sincronizar futuras alterações 
 git push origin main
 ```
 
-Não coloque tokens ou credenciais nos arquivos. A visibilidade privada é o padrão desta fase.
+Não coloque tokens ou credenciais nos arquivos. O repositório é público para avaliação, conforme decisão do responsável pelo projeto.
 
 ## Escopo e dados
 
